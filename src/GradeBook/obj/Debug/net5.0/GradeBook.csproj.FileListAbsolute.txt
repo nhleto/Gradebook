@@ -1,0 +1,16 @@
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook.deps.json
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook.runtimeconfig.json
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook.runtimeconfig.dev.json
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook.dll
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/ref/GradeBook.dll
+/home/henry/Quicken/gradebook/src/GradeBook/bin/Debug/net5.0/GradeBook.pdb
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.csprojAssemblyReference.cache
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.GeneratedMSBuildEditorConfig.editorconfig
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.AssemblyInfoInputs.cache
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.AssemblyInfo.cs
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.csproj.CoreCompileInputs.cache
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.dll
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/ref/GradeBook.dll
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.pdb
+/home/henry/Quicken/gradebook/src/GradeBook/obj/Debug/net5.0/GradeBook.genruntimeconfig.cache
