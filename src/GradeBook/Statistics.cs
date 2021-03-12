@@ -5,5 +5,6 @@ namespace GradeBook
         public double Average = 0.0;
         public double High;
         public double Low;
+        public char letter;
     }
 }
