@@ -3,10 +3,24 @@ using System.Collections.Generic;
 
 namespace GradeBook
 {
-    //add public class is needed if tests fail ??
-    public class Book
+    public delegate void GradeAddedDelegate(object sender, EventArgs args);
+    
+    public class NamedObject
     {
-        public Book(string name)
+        public NamedObject(string name)
+        {
+            Name = name;
+        }
+
+        public string Name
+        {
+            get; set;
+        }
+    }
+    
+    public class Book : NamedObject
+    {
+        public Book(string name) : base(name)
         {
             grades = new List<double>();
             Name = name;
@@ -32,7 +46,7 @@ namespace GradeBook
                 case var d when d >= 60.0:
                     letter = 'D';
                     break;
-                                                        
+
                 default:
                     letter = 'F';
                     break;
@@ -60,13 +74,19 @@ namespace GradeBook
             if (grade <= 100 || grade >= 0)
             {
                 grades.Add(grade);
+                if (GradeAdded != null)
+                {
+                    GradeAdded(this, new EventArgs());
+                }
             }
             else
             {
                 throw new ArgumentException($"Invalid grade {nameof(grade)}!");
             }
         }
+
+        public event GradeAddedDelegate GradeAdded;
         private List<double> grades;
-        public string Name;
+        readonly string category = "Science";
     }
 }
